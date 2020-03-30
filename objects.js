@@ -14,7 +14,7 @@ return obj
 
 var removeFromPlaylist = function(obj, artist){
   delete obj.artist 
-  return playlist 
+  return obj 
 }
 
 console.log(updatePlaylist(playlist, "tyler", "breakFree"))
