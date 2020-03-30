@@ -7,4 +7,4 @@ var updatePlaylist = function(obj, artist, song){
  
 }
 
-console.log(updatePlaylist(playlist, tyler, breakFree))
+console.log(updatePlaylist(playlist, "tyler", "breakFree"))
