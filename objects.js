@@ -13,7 +13,7 @@ return obj
 }
 
 var removeFromPlaylist = function(obj, artist){
-  delete playlist.artist
+  delete obj.artist
   return playlist
 }
 
