@@ -12,4 +12,10 @@ return obj
  
 }
 
+var removeFromPlaylist = function(obj, artist){
+  delete obj.artist 
+  return obj
+}
+
 console.log(updatePlaylist(playlist, "tyler", "breakFree"))
+console.log(removeFromPlaylist(shawnMendez))
