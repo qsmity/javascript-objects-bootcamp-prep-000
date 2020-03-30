@@ -18,4 +18,4 @@ var removeFromPlaylist = function(obj, artist){
 }
 
 console.log(updatePlaylist(playlist, "tyler", "breakFree"))
-console.log(removeFromPlaylist("shawnMendez"))
+console.log(removeFromPlaylist(playlist,"shawnMendez"))
